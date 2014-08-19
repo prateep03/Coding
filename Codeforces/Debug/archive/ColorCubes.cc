@@ -67,8 +67,8 @@ typedef long double     LD;
 typedef pair<int,int>   PI;
 
 /* http://www.codeabbey.com/index/task_view/color-cubes */
-//#define LocalHost
-const int MAXN = 20;
+#define LocalHost
+const int MAXN = 200;
 int b[MAXN][MAXN];
 int colSum[MAXN];
 int dot = -1;
